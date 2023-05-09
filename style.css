@@ -1,0 +1,51 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    float: none;
+    padding:10px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    font-weight:lighter;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .result_para_tag span {
+  white-space: pre-line;
+  }
+  .copy_right_footer{
+    bottom: 0;
+    position:fixed;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 3;
+  }
+  canvas{
+    border:3px dashed whitesmoke;
+    border-radius: 20px;
+    margin-top: 150px;
+    animation-name: an;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes an{
+    from{box-shadow: 5px 5px 5px red;}
+    to{box-shadow: 5px 5px 5px blue;}
+  }
